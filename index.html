@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyTravel</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 38px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      color: #555;
+    }
+
+    .search {
+      margin-top: 30px;
+    }
+
+    input {
+      padding: 15px;
+      width: 280px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 15px 25px;
+      margin-left: 8px;
+      border: none;
+      border-radius: 8px;
+      background: #111827;
+      color: white;
+      cursor: pointer;
+    }
+
+    .destinations {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      font-size: 24px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MyTravel</h1>
+    <p>Explorez le monde autrement</p>
+  </header>
+
+  <section class="hero">
+    <h2>Découvrez votre prochaine destination 🌍</h2>
+    <p>Explorez des destinations incroyables et préparez votre prochain voyage.</p>
+
+    <div class="search">
+      <input type="text" placeholder="Rechercher une destination">
+      <button>Rechercher</button>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <h2>Destinations populaires</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🇫🇷 Paris</h3>
+        <p>Découvrez la capitale française.</p>
+      </div>
+
+      <div class="card">
+        <h3>🇮🇹 Rome</h3>
+        <p>Explorez l'histoire et la culture italienne.</p>
+      </div>
+
+      <div class="card">
+        <h3>🇯🇵 Tokyo</h3>
+        <p>Découvrez une ville unique et moderne.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 MyTravel — Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
